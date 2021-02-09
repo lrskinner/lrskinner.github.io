@@ -32,8 +32,8 @@ margin-top:0%;
 }
 
 .body {
-display: block;
-align-content: center;
+margin: auto;
+width: 50%;
 }
 
 .intro.title {
@@ -48,7 +48,7 @@ align-items: center;
 }
 
 .examples {
+margin: auto;
 width: 50%;
-align-items: center;
 }
 
