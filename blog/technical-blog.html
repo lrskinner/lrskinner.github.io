@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Technical blog</title>
+
+    <meta charset="utf-8" lang="en">
+    <title>The differences between Margin, Border and Padding</title>
+    <link href="../styles/blog-entry.css" rel="stylesheet" type="text/css">
+    
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap" rel="stylesheet">
+  
+  <body>
+
+  <div class="top">
+    <h1 class= "page heading">Leah's Blog</h1>
+  </div>
+    
+
+  <div class= "direction header">
+    <span class= "home">
+      <h4><a href= "../index.html">Home</a></h4>
+    </span>
+  </div>
+  
+  <hr>
+
+  <div>
+    <span>
+      <h2 class= "intro title">The differences between Margin, Border and Padding</h2> 
+      <p class= "intro paragraph">Margin, border and padding are the spaces between elements and can be manipulated with CSS.
+        Here are the definitions.
+
+        Margin: The outermost section of the page, surrounding the border
+        
+        Border: The space between the margin and the padding
+        
+        Padding: The space between the border and the content
+        </p>
+      <p class= "intro paragraph">When combined these elements create the CSS Box Model.</p>
+    </span>
+
+    <span>
+      <img class= "box model" src="../images/boxmodel.png"alt="Box Model">
+    </span>
+
+    <span>
+      <h3>Margin</h3>
+        <p>This code can be used to adjust the margin of the page:</p>
+
+        <ul>
+          <li>Margin-top:</li>
+          <li>Margin-right:</li>
+          <li>Margin-bottom:</li>
+          <li>Margin-left:</li>
+        </ul>
+
+        <p>To adjust all the margins in one go use the below code (the specified sizes are applied to the element clockwise):</p>
+
+        <p>* {Margin: 20px, 40px, 20px, 40px;}</p>
+    </span>
+
+    <span>
+      <h3>Border</h3>
+        <p>The border element can be customised in a few ways:</p>
+
+        <ul>
+          <li>Border-style:</li>
+          <li>Border-width:</li>
+          <li>Border-color:</li>
+        </ul>
+
+        <p>The style function can change the shape of the border and includes none, dotted, dashed, solid and double.</p>
+
+        <p>E.g.</p>
+
+        <p>*{border-style: dotted;}</p>
+
+        <p>*{border-style: double;}</p>
+    </span>
+
+    <span>
+      <h3>Padding</h3>
+        <p>Similar to the margin code, the code for padding includes the ability to set each direction:</p>
+
+        <ul>
+          <li>Padding-top:</li>
+          <li>Padding-right:</li>
+          <li>Padding-bottom:</li>
+          <li>Padding-left:</li>
+        </ul>
+           
+      <p>You can also join this altogether in one code (the specified sizes are applied to the element clockwise):</p>
+      
+      <p>* {Padding: 10%, 20%, 10%, 20%;}</p>      
+    </span>
+
+  </div>
+
+
+   </body>
+</html>
