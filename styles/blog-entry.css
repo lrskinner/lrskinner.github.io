@@ -31,27 +31,19 @@ font-size: 35px;
 margin-top:0%;
 }
 
+.intro.title {
+width: 100%;
+height:auto;
+font-size: 50px;
+color: grey;}
+
 .box.model {
 width: 50%;
 align-items: center;
 }
-
-.list.menu {
-width: 60%;
-height: auto;
-font-size: 35px;
-color: mediumseagreen;
-list-style-type: none;
-display: flex;
-
 
 .examples {
 width: 100%;
 align-items: center;
 }
 
-.intro.title {
-width: 100%;
-height:auto;
-font-size: 50px;
-color: grey;}
