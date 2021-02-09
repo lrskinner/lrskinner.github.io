@@ -45,10 +45,6 @@ list-style-type: none;
 display: flex;
 
 
-.intro {
-width: 100%;
-}
-
 .examples {
 width: 100%;
 align-items: center;
@@ -59,14 +55,3 @@ width: 100%;
 height:auto;
 font-size: 50px;
 color: grey;}
-
-.intro.paragraph {
-font-size: 20px;
-color: grey
-}
-   
-.footer {
-display:flex;
-width: 100;
-height: auto%
-}
