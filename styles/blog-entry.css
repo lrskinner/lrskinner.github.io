@@ -49,6 +49,11 @@ display: flex;
 width: 100%;
 }
 
+.examples {
+width: 100%;
+align-items: center;
+}
+
 .intro.title {
 width: 100%;
 height:auto;
