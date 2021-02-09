@@ -31,6 +31,11 @@ font-size: 35px;
 margin-top:0%;
 }
 
+.body {
+display: block;
+align-content: center;
+}
+
 .intro.title {
 width: 100%;
 height:auto;
@@ -43,7 +48,7 @@ align-items: center;
 }
 
 .examples {
-width: 100%;
+width: 50%;
 align-items: center;
 }
 
