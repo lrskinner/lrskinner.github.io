@@ -43,10 +43,9 @@ padding-top: 40px;
 border-left: solid 1px #99c199;
 }
 
-.line {}
-
 .intro {
 width: 100%;
+height: auto;
 }
 
 .intro.title {
