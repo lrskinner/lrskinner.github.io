@@ -47,10 +47,17 @@ width: 50%;
 align-items: center;
 }
 
+.box-image {
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 50%    
+}
+
 .examples {
 display: block;
 margin-left: auto;
 margin-right: auto;
-width: 40%
+width: 50%
 }
 
