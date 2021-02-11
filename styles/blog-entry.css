@@ -60,3 +60,6 @@ font-size: 20px;
 color: grey;
 }
 
+.hr {
+border: 1px solid grey;
+}
